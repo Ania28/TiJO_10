@@ -19,13 +19,5 @@ describe('app', function () {
                 name: 'Zack', age: 5, course: 'kids'
             });
         });
-        it('should assign person below 10 to kids group', function () {
-            expect(app.assignToSwimmingCourse('Mark', '10/06/2000')).toEqual({
-                name: 'Mark', age: 16, course: 'kids'
-            });
-        });
-
     });
 });
-
-
